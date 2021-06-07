@@ -1,0 +1,51 @@
+
+  if (comando === 'solém') {
+        let embed16 = new Discord.MessageEmbed()
+          .setColor('#0000ff')
+          .setDescription("Vá pra puta que pariu!")
+          .setImage("https://media1.tenor.com/images/53d2fc0385c12606aa5260eceb7d66fb/tenor.gif")
+          
+      message.channel.send(embed16)
+    }
+
+
+
+  vvv - Messagem para quando o Cargo estiver fechado - vvv
+    
+  let embedFechado = new Discord.MessageEmbed()
+    .setColor('#0000ff')
+    .setTitle('**Vagas Fechadas!!!**')
+    .setDescription('Infelizmente as vagas para este cargo estão fechadas no momento, tente novamente daqui um tempo!')
+
+  message.channel.send(embedFechado)
+
+
+
+
+  ===============================================================================
+
+
+module.exports = recrutamento = {
+  
+  texto: `**Dê uma lidinha nas funções que precisamos de ajuda:**\n\n**TRADUTOR:**\nO tradutor deve traduzir (seja inglês, espanhol, japonês, coreano ou chinês) para a língua portuguesa.\n**Requisitos:**Ter uma boa noção de inglês[Fluente] /Espanhol[Fluente] / japonês[N3+] / coreano[Intermediário+] / chinês[HSK4+], de preferência ter algum curso ou já ter morado no exterior (nada de google tradutor). **__Se você quer TRADUZIR envie aqui o comando n!tradutor.__**\n\n**EDITOR**\n**Type:** Ter uma boa noção de centralização e posicionamento das falas e uma boa memória para fontes e variações de configuração textual.\n**Redraw:** Ter um bom domínio das ferramentas de edição, paciência e atenção para fazer corretamente os redesenhos das imagens.\n**Requisitos:**Saber trabalhar com o editor de imagens (Photoshop CS6+). **__Se quiser EDITAR use o comando n!editor.__**\n(Caso queira aprender estamos com disponibilidade para ensinar, basta ter tempo e o Photoshop CS6+)\n**Obs:** Youtube tem muitos tutoriais de edição.\n\n**REVISOR**\nO revisor fica responsável por conferir a tradução do tradutor para possíveis erros de digitação, tradução, balões, páginas faltando e etc.\n**Requisitos:**Ter domínio da língua portuguesa, ou intermediário com conhecimento do inglês. **__Se quer REVISAR use o comando n!revisor__**\n\n**[Seja paciente ao enviar seu pedido pelo teste, devido ao alto número de candidatos, podemos demorar a responder.]**\n\n**AVISO: Estamos procurando pessoas REALMENTE INTERESSADAS em ajudar.**`
+
+  }
+
+  module.exports = editor = {
+    texto: "Qual das funções de edição? digite **n!type** para o teste de typer e **n!redraw** para o teste de redraw.",
+
+    typer: "**Não esqueça de ler os txt e ver os vídeos.**\n\n**Segue o link do teste: https://cdn.discordapp.com/attachments/687740289854603293/687816783792832513/Teste_de_Type_Neox.rar**\n\nAo finalizar o teste, envie para **sharrim#3078**",
+
+    redraw: "No teste de redrawer você não precisa fazer todas as paginas, faça apenas as que você conseguir e não esqueça de ler o txt e ver os videos\n\nSegue o link do teste: https://cdn.discordapp.com/attachments/687740289854603293/687816661713027100/Teste_de_Redraw_Neox.rar\n\nAo finalizar o teste, envie para **sharrim#3078**"
+  }
+
+  module.exports = tradutor = {
+    texto: "**Eai, " + message.author.username + ". Então, vou te mandar aqui o teste, não se esqueça de ler o arquivo de bloco de notas, ele contém dicas importantes.**\n\n**A senha para o teste é 'neoxscanstestedetraducaoingles'. Boa sorte.**\n\n *Segue o Link do arquivo: https://cdn.discordapp.com/attachments/786021920414892054/786204946516803615/Teste_de_Traducao_para_Ingles.rar*\n\nAo finalizar o teste, envie para **Kyoya#3084**"
+  }
+
+  module.exports = revisor = {
+    texto: "**Eai, " + message.author.username + ". *Basicamente vc tem que corrigir ortografia, concordância e gramática*\n**Envie em formato txt.** Boa sorte.**\n\n *Segue o Link do arquivo: https://cdn.discordapp.com/attachments/702920908544671914/702921944516788233/Teste_de_Revisao_1.txt*\n\nAo finalizar o teste, envie para **Emer#3854**"
+  }
+
+  =================================================================================
+  
